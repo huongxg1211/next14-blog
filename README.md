@@ -9,3 +9,6 @@
 3.2. Typography
 3.3. Colors
 3.4. Global site styles
+
+4. Markdown Styling
+4.1 Styling Markdown approaches

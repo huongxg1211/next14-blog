@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import type { Metadata} from 'next/types';
 import { getBlogPostMetadata } from "../_lib/getBlogPostData";
+import markdownStyles from '@/app/blog/_components/markdown/markdown.module.css';
 
 type BlogPageProps = {
     params: {
@@ -27,7 +28,7 @@ export default async function BlogPage({ params }: BlogPageProps) {
     const title = `${metadata.title ?? ''}`;
     const BlogMarkdown = dynamic(() => import('@/blog/' + params.slug + '.mdx'));
     return (
-        <div className="container mx-auto p-4">
+        <div className={`prose lg:prose-xl dark:prose-invert container mx-auto p-4 ${markdownStyles["markdown"]}`}>
             <h2 className="my-4 text-center text-xl font-bold text-teal-800">{ title }</h2>
             <BlogMarkdown />
         </div>

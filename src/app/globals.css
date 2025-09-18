@@ -48,7 +48,7 @@
   }
 
   body {
-    color: rgb(var(--foreground-rgb));
+    color: rgb(var(--color-neutral-950));
     background: rgb(var(--backgroundrgb));
   }
 
