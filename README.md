@@ -12,3 +12,7 @@
 
 4. Markdown Styling
 4.1 Styling Markdown approaches
+
+5. Next.js Images
+- next/image component
+5.1. Add images
