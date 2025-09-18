@@ -6,3 +6,6 @@
 3. Site Styling
 3.1 Fonts
 - Next.js fonts docs
+3.2. Typography
+3.3. Colors
+3.4. Global site styles

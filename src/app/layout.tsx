@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${crimson.variable} ${workSans.variable} ${overpassMono.variable}`}>
+    <html lang="en" className={`${crimson.variable} ${workSans.variable} ${overpassMono.variable} font-serif`}>
       <body>{children}</body>
     </html>
   );

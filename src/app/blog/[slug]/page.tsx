@@ -28,7 +28,7 @@ export default async function BlogPage({ params }: BlogPageProps) {
     const BlogMarkdown = dynamic(() => import('@/blog/' + params.slug + '.mdx'));
     return (
         <div className="container mx-auto p-4">
-            <h2 className="my-4 text-center text-xl font-bold">{ title }</h2>
+            <h2 className="my-4 text-center text-xl font-bold text-teal-800">{ title }</h2>
             <BlogMarkdown />
         </div>
     );
